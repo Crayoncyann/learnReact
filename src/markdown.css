@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #D8D8D8;
+}
+
+.editor {
+    position: relative;
+    margin-right: 1000px;
+    padding: 30px;
+    text-align: center;
+}
+
+.title {
+    color: #202020;
+    letter-spacing: 3px;
+
+}
+
+textarea {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+    font-size: 15px;
+}
+
+.show {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 970px;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 81%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+    text-align: left;
+}
