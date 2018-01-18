@@ -16,7 +16,5 @@
 - state 和 props
 
 > 组件的 state 是保存组件的状态, 只能通过组件内部的 setState(xx, callback)修改, 当 state 改变时 UI 重新渲染
-
-> 组件的 props 是外部传来的参数, 主要用来组件件的通信,
-
+> 组件的 props 是外部传来的参数, 主要用来组件件的通信
 > 多用 props, 少用 state, 多写无状态组件
