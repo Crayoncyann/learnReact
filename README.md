@@ -28,11 +28,17 @@
 - component 的生命周期
 
 > componentWillMount() - render 前执行
+>
 > componentDidMount() - 在 render 后执行，只执行一次, this.getDOMNode() 访问 DOM
+>
 > componentWillReceiveProps() - 接收 props 执行
+>
 > componentWillUpdate() - 接收 props 或 setState 并且, render 还没渲染时执行
+>
 > shouldComponentUpdate() - 接收 props 或 setState 时执行, return 一个布尔值, 组件不更新时使用
+>
 > componentDidUpdate() - 更新后执行
+>
 > componentWillUnmount() - 组件移除后, 只执行一次
 
 ```
