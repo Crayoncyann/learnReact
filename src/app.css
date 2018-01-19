@@ -1,0 +1,13 @@
+.timer-show {
+    position: fixed;
+    top: 25px;
+    right: 130px;
+    border-radius: 5px;
+    outline: none;
+    background: black;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 8px white;
+
+}

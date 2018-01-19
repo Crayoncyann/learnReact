@@ -1,11 +1,8 @@
 # learnReact
 
 
-- 示例图
-![screenshots](https://github.com/Crayoncyann/learnReact/blob/master/screenshots/md.gif)
-
-
 ## 学习 React 中 ...
+
 
 ![React](http://yiming465.com/wp-content/uploads/2016/09/9FF923C456668F2850BE562B46A84414.png)
 
@@ -20,3 +17,26 @@
 > 组件的 props 是外部传来的参数, 主要用来组件件的通信
 >
 > 多用 props, 少用 state, 多写无状态组件
+
+```
+练习写了一个 Markdown, 学习状态驱动是怎么个情况, 实例如下
+```
+
+![screenshots](https://github.com/Crayoncyann/learnReact/blob/master/screenshots/md.gif)
+
+
+- component 的生命周期
+
+> componentWillMount() - render 前执行
+> componentDidMount() - 在 render 后执行，只执行一次, this.getDOMNode() 访问 DOM
+> componentWillReceiveProps() - 接收 props 执行
+> componentWillUpdate() - 接收 props 或 setState 并且, render 还没渲染时执行
+> shouldComponentUpdate() - 接收 props 或 setState 时执行, return 一个布尔值, 组件不更新时使用
+> componentDidUpdate() - 更新后执行
+> componentWillUnmount() - 组件移除后, 只执行一次
+
+```
+定时器只用到了 componentDidMount(), componentWillUnmount()
+```
+
+![定时器](https://github.com/Crayoncyann/learnReact/blob/master/screenshots/lifecycle.gif)

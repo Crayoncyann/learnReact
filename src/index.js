@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import Markdown from './markdown.js'
+import App from './app.js'
 
 ReactDom.render(
-    <Markdown />,
+    <App />,
     document.getElementById('main')
 )
