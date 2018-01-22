@@ -1,0 +1,9 @@
+.comm-div {
+    position: relative;
+    display: inline-block;
+    margin: 20px 50px;
+}
+.comm-div h2 {
+    color: #666666;
+    letter-spacing: 3px;
+}

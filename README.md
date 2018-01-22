@@ -46,3 +46,26 @@
 ```
 
 ![定时器](https://github.com/Crayoncyann/learnReact/blob/master/screenshots/lifecycle.gif)
+
+
+- 组件的通信
+
+> 父组件 -> 子组件
+>
+> 通过父组件的 props 向子组件传递数据, 子组件调用数据并重新渲染
+>
+> 我理解的方法: 父组件 render 时, 把子组件的标签写好传递的数据
+>
+> 子组件 -> 父组件
+>
+> 把子组件的数据作为一个函数, 回调给父组件, 父组件获取并重新渲染
+>
+> 我理解的方法: 子组件通过一个事件, 把 state 回调给父组件, 父组件在写子组件标签时, 需要写好回调函数, 再通过 bind 获取一个函数的引用
+>
+> 看了下网上的实例, 大部分都是
+
+```
+网上大部分的实例都是填写信息时会用到子组件向父组件通信, 自己写了一个组件通信的 demo, 通过点击获取通信结果
+```
+
+![组件通信](https://github.com/Crayoncyann/learnReact/blob/master/screenshots/componpentComm.gif)

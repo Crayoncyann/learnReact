@@ -2,6 +2,8 @@ import React from 'react'
 
 import Markdown from './markdown.js'
 import Timer from './timer.js'
+import ParentToChlid from './parentToChild.js'
+import ChlidToParent from './chlidToParent.js'
 
 import './app.css'
 
@@ -24,8 +26,16 @@ class App extends React.Component {
         return (
             <div className='react-domm'>
                 <Markdown />
-                <button className='timer-show' onClick={this.handleChange}>计时器</button>
-                {timer}
+                <div className='comp-div'>
+                    <h2>一个定时器</h2>
+                    <button className='timer-show' onClick={this.handleChange}>计时器</button>
+                    {timer}
+                </div>
+                <div className='comp-div'>
+                    <h2>组件通信</h2>
+                    <ParentToChlid />
+                    <ChlidToParent />
+                </div>
             </div>
         )
     }

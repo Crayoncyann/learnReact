@@ -1,48 +1,37 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #D8D8D8;
-}
-
-.editor {
+.react-md {
     position: relative;
-    margin-right: 1000px;
-    padding: 30px;
+    width: 70%;
     text-align: center;
+    margin: 30px auto;
+    padding: 10px;
 }
-
+.react-md::after {
+    clear: both;
+    overflow: hidden;
+}
+.md-div {
+    position: relative;
+    width: 45%;
+}
+.editor {
+    float: left;
+}
+.show {
+    float: right;
+}
 .title {
-    color: #202020;
+    color: #666666;
     letter-spacing: 3px;
-
 }
-
-textarea {
+.md-css {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 200px;
     background: white;
     border-radius: 5px;
     box-shadow: 3px 3px 10px black;
     font-size: 15px;
 }
-
-.show {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 970px;
-    height: 100%;
-    padding: 30px;
-    text-align: center;
-}
-
-.content {
-    position: relative;
-    width: 100%;
-    height: 81%;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 3px 3px 10px black;
+.md-content {
     text-align: left;
 }
