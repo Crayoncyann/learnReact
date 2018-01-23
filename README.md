@@ -69,3 +69,18 @@
 ```
 
 ![组件通信](https://github.com/Crayoncyann/learnReact/blob/master/screenshots/componpentComm.gif)
+
+  
+- React Router
+
+> 实例参考: [Github: React Router](https://github.com/reactjs/react-router-tutorial/tree/master/lessons)  
+> 教程参考: [阮一峰 - React Router](http://www.ruanyifeng.com/blog/2016/05/react_router.html)  
+>
+> Router 是一个容器, 真正的路由需要通过 Router 组件定义  
+> Router path 是匹配的路径, 可以省略, component 是路由加载的组件  
+> 通配符和标准的一样 : () * **  
+> <Link> 和 HTML 中的 <a> 作用相同, Link to='xx'  
+
+```
+**Mark**一下, 剩下的没懂, 跑了一遍实例也不知道具体应用在哪些地方
+```
