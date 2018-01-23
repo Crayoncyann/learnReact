@@ -6,6 +6,8 @@
 
 ![React](http://yiming465.com/wp-content/uploads/2016/09/9FF923C456668F2850BE562B46A84414.png)
 
+- 1.23 发现个博客, [React 全家桶教学](http://blog.csdn.net/awaw00) 有时间的话跑一跑, 后端还是用 Node.js 构造好一点, 顺便搭一个 MongoDB
+
 - React 是声明式, 组件化, 高效, 灵活 的前端框架
 
 - React 是通过 Virtual DOM 来渲染 UI, 当组件状态改变时, React 会调用组件的 reader 重新渲染
