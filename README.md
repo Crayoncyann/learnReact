@@ -63,8 +63,10 @@
 > 教程参考: [阮一峰 - React Router](http://www.ruanyifeng.com/blog/2016/05/react_router.html)  
 >
 > Router 是一个容器, 真正的路由需要通过 Router 组件定义  
-> Router path 是匹配的路径, 可以省略, component 是路由加载的组件  
+> Route path 是匹配的路径, 可以省略, component 是路由加载的组件  
 > 通配符和标准的一样 : () * **  
-> <Link> 和 HTML 中的 <a> 作用相同, Link to='xx'
+> <Link> 和 HTML 中的 <a> 作用相同, Link to='xx'  
+> 导入的时候尽量解构, 这样用起来方便 eg: import {Router, Route, Link, anyone...} from 'react-router'
+> hashHistroy 是动态路由的关键... 还有 browserHistory(需要后端处理)、 memoryHistory(服务器)
 
-**Mark**一下, 剩下的没懂, 跑了一遍实例也不知道具体应用在哪些地方
+**Mark** 一下, 不是很懂, 跑了一遍实例也不知道具体应用在哪些地方
